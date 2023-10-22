@@ -6,3 +6,8 @@ export type Product = {
   image: string;
   category: string;
 };
+
+export type ProductImage = {
+  product: Product;
+  fill?: boolean;
+}

@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { Product } from "../../Types/Product";
 import AddCartBtn from "./AddCartBtn";
+import ProductImage from "./ProductImage";
 
 export default async function ProductsList() {
   const products = await getProducts();
@@ -10,10 +11,7 @@ export default async function ProductsList() {
         products.map((product: Product) => (
           <li key={product.id} className="bg-white rounded-lg shadow-lg flex flex-col">
             <div className="block relative h-48 rounded overflow-hidden">
-              <img
-                src={product.image}
-                alt={product.title} className="object-cover object-center w-full h-full block"
-              />
+              <ProductImage product={product} fill/>
             </div>
             <div className="p-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">{product.category}</h3>

@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Product } from "../../Types/Product";
-import AddCartBtn from "./AddCartBtn";
+import AddCartBtn from "./Buttons/AddCartBtn";
 import ProductImage from "./ProductImage";
 
 export default async function ProductsList() {

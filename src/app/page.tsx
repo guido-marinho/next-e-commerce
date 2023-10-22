@@ -1,11 +1,9 @@
-import MainLayout from "./components/MainLayout";
+import Home from './pages/Home';
 
 export default function page() {
   return (
-    <MainLayout>
-      <div>
-        <h1 >Page</h1>
-      </div>
-    </MainLayout>
+    <>
+      <Home/>
+    </>
   )
 }

@@ -1,6 +1,11 @@
+import MainLayout from "./components/MainLayout";
 
 export default function page() {
   return (
-    <div>page</div>
+    <MainLayout>
+      <div>
+        <h1 >Page</h1>
+      </div>
+    </MainLayout>
   )
 }

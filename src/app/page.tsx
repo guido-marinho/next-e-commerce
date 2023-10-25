@@ -1,5 +1,5 @@
 import MainLayout from "./components/MainLayout";
-import ProductsList from "./components/ProductsList";
+import ProductsList from "./components/Products/ProductsList";
 
 export default  function page() {
   return (

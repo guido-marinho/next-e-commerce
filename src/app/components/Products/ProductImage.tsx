@@ -1,8 +1,8 @@
 'use client'
 
-import { ProductImage } from "@/Types/Product";
 import Image from "next/image";
 import { useState } from "react";
+import { ProductImage } from "../../../Types/Product";
 
 
 export default function ProductImage({product, fill} : ProductImage) {
